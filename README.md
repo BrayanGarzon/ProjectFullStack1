@@ -1,18 +1,18 @@
-src/
- ├─ assets/
- │   └─ react.svg   (o lo que uses)
+
+
+ src/
+ ├── components/
+ │    ├── layout/
+ │    │     ├── Navbar.jsx
+ │    │     └── Footer.jsx
+ │    └── ui/
+ │          └── WhatsAppButton.jsx
  │
- ├─ components/
- │   └─ layout/
- │        ├─ Navbar.jsx
- │        ├─ Footer.jsx
- │        └─ MainLayout.jsx
+ ├── screens/
+ │    ├── Home.jsx
+ │    ├── Products.jsx
+ │    └── Contact.jsx
  │
- ├─ screens/
- │   ├─ Home.jsx
- │   ├─ Products.jsx
- │   └─ Contact.jsx
- │
- ├─ App.jsx
- ├─ main.jsx
- ├─ index.css
+ ├── App.jsx
+ ├── main.jsx
+ └── index.css
